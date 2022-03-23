@@ -138,8 +138,6 @@ Finally, you can create a video of your model's inferences for any tf record fil
 python inference_video.py --labelmap_path label_map.pbtxt --model_path experiments/reference/exported/saved_model --tf_record_path /data/waymo/testing/segment-12200383401366682847_2552_140_2572_140_with_camera_labels.tfrecord --config_path experiments/reference/pipeline_new.config --output_path animation.gif
 ```
 
-## Submission Template
-
 ### Project overview
 The main idea of this project is application of Neural network for image detection and understanding the different aspects associated with tuning the hyperparameters etc. Object detection or perception is the first step in Self driving cars and its a really important step since without detecting the objects accurately any downstream functionality(path planning, controls) will not perform optimally. 
 
@@ -213,9 +211,3 @@ Some Observations watching the generated animations on the test files:
 4. When there are a lot of crowded cars the model does not perform well. Which might be because of poor bounding boxes or ROI issues with training.
 
 This was a really interesting project and I enjoyed working on it.
-
-
-
-
-
-
